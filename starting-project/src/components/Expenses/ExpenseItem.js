@@ -1,5 +1,5 @@
 import "./ExpenseItem.css";
-import Card from "./Card";
+import Card from "../UI/Card";
 
 const ExpenseItem = (props) => {
   const month = props.date.toLocaleString("en-us", { month: "long" });
